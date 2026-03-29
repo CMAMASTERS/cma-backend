@@ -1,0 +1,11 @@
+🎓 Masters Professional Academy
+   AI Doubt Solver — Now Live!
+
+🌐 Link: https://cma-frontend-nine.vercel.app
+
+👤 Your Login ID : STU001  (given by admin)
+🔑 Your Password : xxxxxx  (given by admin)
+
+📌 Works on Mobile & Computer
+📌 Supports: Accounting, Costing, Tax, Theory
+📌 You can TYPE your doubt or UPLOAD a photo of the question

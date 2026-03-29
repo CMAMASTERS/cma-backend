@@ -11,7 +11,7 @@ const router = express.Router();
 
 const generateToken = (userId, deviceId) =>
   jwt.sign({ userId, deviceId }, process.env.JWT_SECRET, {
-    expiresIn: process.env.JWT_EXPIRES_IN || "7d",
+    expiresIn: process.env.JWT_EXPIRES_IN || "30d",
   });
 
 // Detect device type and name from User-Agent
