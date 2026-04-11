@@ -1,0 +1,99 @@
+github.com/CMAMASTERS/mpa-platform
+
+
+Project name         mpa-platform
+Database password    MPA@Kannan2025 (save this — you need it)
+
+
+Field           Value
+Host            db.odwogussbmtuoqdjwunc.supabase.co
+Port            5432
+Database        postgres
+User            postgres
+Password        MPA@Kannan2025 (what you set)
+
+DB_HOST=aws-1-ap-southeast-1.pooler.supabase.com
+DB_PORT=6543
+DB_NAME=postgres
+DB_USER=postgres.odwogussbmtuoqdjwunc
+DB_PASSWORD=MPA@Kannan2025
+
+
+postgresql://postgres:MPA@Kannan2025@db.odwogussbmtuoqdjwunc.supabase.co:5432/postgres
+
+
+ALL APIs WORKING PERFECTLY!
+I can see in the Activity list on the left:
+
+GET /api/fees/report → 200 OK ✅
+POST /api/courses → 200 ✅
+GET /api/courses/categories → 200 ✅
+
+Fee Report response:
+json"total_collected": 0,
+"total_pending": 0,
+"total_overdue": 0,
+"overdue_students": [],
+"recent_payments": []
+All zeros because no fees assigned yet — but the API is working perfectly.
+
+
+Live URL
+
+https://mpa-platform.onrender.com
+
+
+
+
+Every API you built works at this URL. For example:
+
+Login: POST https://mpa-platform.onrender.com/api/auth/login
+Dashboard: GET https://mpa-platform.onrender.com/api/students/dashboard/stats
+AI Doubt: POST https://mpa-platform.onrender.com/api/doubts/solve
+
+Admin Token 
+
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImJkZDYyZWVlLWM5NmItNDhkMi05Y2IxLThkOWQ5NjhjZTdmYSIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTc3NTI4MTkxMSwiZXhwIjoxNzc3ODczOTExfQ.g5SSwYZR0O8HpeBKBtrMpCL8bv1mri6aRCpQA-MtKFY
+
+
+New token
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImJkZDYyZWVlLWM5NmItNDhkMi05Y2IxLThkOWQ5NjhjZTdmYSIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTc3NTMxMDA2OCwiZXhwIjoxNzc3OTAyMDY4fQ.HU77cN7kRODXbOCUA06PSiypRnzmv1LSk_NnaCI8Z5E
+
+Student Token
+
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImQ0ZjkzMDczLWNjODgtNDEyMC1hZTE5LTFjNDQ2NGQxMDE1MiIsInJvbGUiOiJzdHVkZW50IiwiaWF0IjoxNzc1Mjg2Nzk1LCJleHAiOjE3Nzc4Nzg3OTV9.hCa_hAZmauWKdh_KKPLwJfJ8PyHQ9l7Oi4G2mShQkv0
+
+Component           URL
+Backend API         https://mpa-platform.onrender.com
+Admin Panel         https://mpa-platform.vercel.app
+Database            SupabasePostgreSQL
+AI Doubt Solver     Claude API connected
+
+
+
+categories   
+        "id": "bf76fae1-283a-450e-9b64-9ceb956d75b8",
+
+630d2395-d7f4-449c-9d79-55145e8fdb97
+
+Course ID: 630d2395-d7f4-449c-9d79-55145e8fdb97
+Batch ID:  de13210f-6484-4351-b379-c4ad061b2e9c
+       
+Admin Panel: https://mpa-platform.vercel.app
+Backend API: https://mpa-platform.onrender.com
+
+
+
+Admin Panel                  https://mpa-platform.vercel.app
+Student Portal               https://mpa-platform-jyiq.vercel.app
+Backend API                  https://mpa-platform.onrender.com
+
+
+student id  fca17904-e3ac-402c-b141-60c8faf8e746
+
+
+mid P2e62J3hWWqq7h
+
+
+API key      rzp_live_SZeBoQrY4ydMy4
+secret key   yA3GBYHq66ce8GvTLodFVWPf
